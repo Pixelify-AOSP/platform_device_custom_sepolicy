@@ -9,3 +9,5 @@ type lineage_trust_service, system_api_service, system_server_service, service_m
 
 # Freeform
 type lmo_freeform_service, system_api_service, system_server_service, service_manager_type;
+
+type pocket_service, system_api_service, system_server_service, service_manager_type;
