@@ -22,3 +22,6 @@ app_lock                                  u:object_r:app_lock_service:s0
 
 # PowerInsight
 power_insight                             u:object_r:power_insight_service:s0
+
+# Linearmotor Vibrator
+linearmotor                               u:object_r:linearmotor_vibrator_service:s0

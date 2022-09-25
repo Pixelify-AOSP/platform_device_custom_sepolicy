@@ -40,3 +40,6 @@ allow system_server ax_sandbox_vault_file:file create_file_perms;
 # PowerInsight
 add_service(system_server, power_insight_service);
 allow system_server sysfs_batteryinfo:file r_file_perms;
+
+# Linearmotor Vibrator
+add_service(system_server, linearmotor_vibrator_service);
