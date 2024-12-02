@@ -39,3 +39,7 @@ allow system_app cgroup:file rw_file_perms;
 
 # PowerInsight
 allow system_app power_insight_service:service_manager find;
+
+# Allow Columbus to set ApSensor property
+allow system_app system_prop:property_service set;
+
