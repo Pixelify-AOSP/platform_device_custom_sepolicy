@@ -61,3 +61,6 @@ allow platform_app power_insight_service:service_manager find;
 
 # Allow Columbus to set ApSensor property
 allow platform_app system_prop:property_service set;
+
+# Bootanim
+allow platform_app bootanim_system_prop:property_service set;
