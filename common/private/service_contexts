@@ -25,3 +25,6 @@ power_insight                             u:object_r:power_insight_service:s0
 
 # Linearmotor Vibrator
 linearmotor                               u:object_r:linearmotor_vibrator_service:s0
+
+# Boost framework
+boost_framework                              u:object_r:boost_framework_service:s0
