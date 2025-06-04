@@ -51,3 +51,6 @@ add_service(system_server, linearmotor_vibrator_service);
 
 # Boost framework
 add_service(system_server, boost_framework_service);
+
+# Refresh Rate Manager
+add_service(system_server, refresh_rate_manager_service);

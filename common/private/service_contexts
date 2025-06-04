@@ -28,3 +28,6 @@ linearmotor                               u:object_r:linearmotor_vibrator_servic
 
 # Boost framework
 boost_framework                              u:object_r:boost_framework_service:s0
+
+# Refresh Rate Manager
+refresh_rate_ext                          u:object_r:refresh_rate_manager_service:s0
