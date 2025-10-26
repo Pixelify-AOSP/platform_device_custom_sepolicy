@@ -10,3 +10,6 @@ system_internal_prop(custom_version_prop)
 
 # Recovery update
 system_internal_prop(recovery_update_prop)
+
+# Pixel props
+system_public_prop(pixelprops_prop)
