@@ -49,3 +49,6 @@ allow platform_app system_userdir_file:file r_file_perms;
 
 # Obscura
 allow platform_app obscura_service:service_manager find;
+
+# PowerInsight
+allow platform_app power_insight_service:service_manager find;
