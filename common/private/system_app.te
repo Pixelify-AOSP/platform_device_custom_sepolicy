@@ -35,3 +35,6 @@ allow system_app obscura_service:service_manager find;
 # Allow GameSpace to set process group
 allow system_app cgroup:dir search;
 allow system_app cgroup:file rw_file_perms;
+
+# PowerInsight
+allow system_app power_insight_service:service_manager find;
