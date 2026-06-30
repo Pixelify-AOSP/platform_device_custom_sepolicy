@@ -46,3 +46,6 @@ allow platform_app system_data_file:dir r_dir_perms;
 allow platform_app system_data_file:file r_file_perms;
 allow platform_app system_userdir_file:dir r_dir_perms;
 allow platform_app system_userdir_file:file r_file_perms;
+
+# Obscura
+allow platform_app obscura_service:service_manager find;
