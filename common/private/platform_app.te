@@ -67,3 +67,8 @@ allow platform_app system_prop:property_service set;
 
 # Bootanim
 allow platform_app bootanim_system_prop:property_service set;
+
+# Keystore compatibility
+allow platform_app keystore_compat_data_file:dir create_dir_perms;
+allow platform_app keystore_compat_data_file:file create_file_perms;
+

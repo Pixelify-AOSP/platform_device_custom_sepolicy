@@ -24,3 +24,8 @@
 
 # Sandbox
 /data/system_ce/[0-9]*/sandbox/vault(/.*)?  u:object_r:ax_sandbox_vault_file:s0
+
+# Keystore compatibility
+/data/system/keystore_compat(/.*)?          u:object_r:keystore_compat_data_file:s0
+/data/system/tee_simulator(/.*)?            u:object_r:keystore_compat_data_file:s0
+
